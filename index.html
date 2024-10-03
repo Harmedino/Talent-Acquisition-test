@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="4rem" height="4rem" viewBox="0 0 36 36">
+                    <path fill="#a700f5" d="M26.54 18a19.4 19.4 0 0 0-.43-4h3.6a12 12 0 0 0-.67-1.6h-3.35a19.7 19.7 0 0 0-2.89-5.87a12.3 12.3 0 0 0-2.55-.76a17.8 17.8 0 0 1 3.89 6.59h-5.39V5.6h-1.5v6.77h-5.39a17.8 17.8 0 0 1 3.9-6.6a12.3 12.3 0 0 0-2.54.75a19.7 19.7 0 0 0-2.91 5.85H6.94A12 12 0 0 0 6.26 14h3.63a19.4 19.4 0 0 0-.43 4a19.7 19.7 0 0 0 .5 4.37H6.42A12 12 0 0 0 7.16 24h3.23a19.3 19.3 0 0 0 2.69 5.36a12.3 12.3 0 0 0 2.61.79A17.9 17.9 0 0 1 12 24h5.26v6.34h1.5V24H24a17.9 17.9 0 0 1-3.7 6.15a12.3 12.3 0 0 0 2.62-.81A19.3 19.3 0 0 0 25.61 24h3.2a12 12 0 0 0 .74-1.6H26a19.7 19.7 0 0 0 .54-4.4m-9.29 4.37h-5.74a17.7 17.7 0 0 1-.09-8.4h5.83Zm7.24 0h-5.74V14h5.83a18.2 18.2 0 0 1 .42 4a18 18 0 0 1-.51 4.37" class="clr-i-outline clr-i-outline-path-1" />
+                    <path fill="#a700f5" d="M18 2a16 16 0 1 0 16 16A16 16 0 0 0 18 2m0 30a14 14 0 1 1 14-14a14 14 0 0 1-14 14" class="clr-i-outline clr-i-outline-path-2" />
+                    <path fill="none" d="M0 0h36v36H0z" />
+                </svg>
+            </div>
+            <h2>Welcome back</h2>
+            <p>Please enter your details to sign in</p>
+        </div>
+        <div class="social-login">
+            <div class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.3em" viewBox="0 0 256 262"><path fill="#4285f4" d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622l38.755 30.023l2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"/><path fill="#34a853" d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055c-34.523 0-63.824-22.773-74.269-54.25l-1.531.13l-40.298 31.187l-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"/><path fill="#fbbc05" d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82c0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602z"/><path fill="#eb4335" d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0C79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"/></svg>
+            </div>
+            <div class="social-icon">
+                <i class="fab fa-apple" style="font-size: 25px;"></i>
+            </div>
+            <div class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="1.4em" viewBox="0 0 24 24"><path fill="#0400f5" d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4z"/></svg>
+            </div>
+        </div>
+        
+
+        <div class="divider">
+            <hr>
+            <span>or</span>
+            <hr>
+        </div>
+        <form>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            
+            <label for="password">Password</label>
+            <div class="password-container">
+                <input type="password" id="password" placeholder="●●●●●●●"  required>
+                <span class="eye-icon"><?xml version="1.0" ?><svg fill="none" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M2.21967 2.21967C1.9534 2.48594 1.9292 2.9026 2.14705 3.19621L2.21967 3.28033L6.25424 7.3149C4.33225 8.66437 2.89577 10.6799 2.29888 13.0644C2.1983 13.4662 2.4425 13.8735 2.84431 13.9741C3.24613 14.0746 3.6534 13.8305 3.75399 13.4286C4.28346 11.3135 5.59112 9.53947 7.33416 8.39452L9.14379 10.2043C8.43628 10.9258 8 11.9143 8 13.0046C8 15.2138 9.79086 17.0046 12 17.0046C13.0904 17.0046 14.0788 16.5683 14.8004 15.8608L20.7197 21.7803C21.0126 22.0732 21.4874 22.0732 21.7803 21.7803C22.0466 21.5141 22.0708 21.0974 21.8529 20.8038L21.7803 20.7197L15.6668 14.6055L15.668 14.604L14.4679 13.4061L11.598 10.5368L11.6 10.536L8.71877 7.65782L8.72 7.656L7.58672 6.52549L3.28033 2.21967C2.98744 1.92678 2.51256 1.92678 2.21967 2.21967ZM10.2041 11.2655L13.7392 14.8006C13.2892 15.2364 12.6759 15.5046 12 15.5046C10.6193 15.5046 9.5 14.3853 9.5 13.0046C9.5 12.3287 9.76824 11.7154 10.2041 11.2655ZM12 5.5C10.9997 5.5 10.0291 5.64807 9.11109 5.925L10.3481 7.16119C10.8839 7.05532 11.4364 7 12 7C15.9231 7 19.3099 9.68026 20.2471 13.4332C20.3475 13.835 20.7546 14.0794 21.1565 13.9791C21.5584 13.8787 21.8028 13.4716 21.7024 13.0697C20.5994 8.65272 16.6155 5.5 12 5.5ZM12.1947 9.00928L15.996 12.81C15.8942 10.7531 14.2472 9.10764 12.1947 9.00928Z" fill="#212121"/></svg></span>
+            </div>
+            
+            <div class="checkbox-container">
+                <div class="checkbox">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember for 30 days</label>
+            </div>
+                <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+            <hr>
+            
+            <button type="submit" class="sign-in-button">Sign In</button>
+        </form>
+        <p class="create-account">Don't have an account? <a href="#">Create account</a></p>
+    </div>
+</body>
+</html>
